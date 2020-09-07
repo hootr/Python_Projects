@@ -1,6 +1,6 @@
 
 
-from _abc import _abc, abstractmethod
+from abc import ABC, abstractmethod
 class car(ABC):
     def paySlip(self, amount):
         print("Your purchase amount: ",amount)
